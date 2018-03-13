@@ -8,18 +8,86 @@
     <header class="page-header">
       <nav class="page-navigation">
         <ul class="page-navigation">
-          <li>Информация</li>
+          <li><a href="index.html"> Информация </a></li>
           <li><a href="gallery.html"> Фото и видео </a></li>
           <li><a href="map.html"> Карта штата </a></li>
           <li><a href="hotels.html"> Гостиницы </a></li>
-          </ul>
+        </ul>
       </nav>
+      <div class="page-logo">
+            <a>
+              <img src="img/index-logo.svg" alt="Логотип Седона">
+            </a>
+      </div>
     </header>
+
     <main class="page-container">
-      <a class="page-header-logo">
-        <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Седона">
-      </a>
-      <!-- Здесь будет форма -->
+      <section class="filter-form">
+        <!-- Здесь будет форма -->
+      </section>
+
+      <div class="hotel-sort">
+        <div class="sort-title"> Найдено: 3 </div>
+      </div>
+      <ul class="sort-list">
+        <li class="sort-item"><a class="hotel-sort-item" href="#"> По цене </a></li>
+        <li class="sort-item"><a class="hotel-sort-item" href="#"> По типу </a></li>
+        <li class="sort-item"><a class="hotel-sort-item" href="#"> По рейтингу </a></li>
+      </ul>
+
+      <section class="hotels-info">
+        <h2 class="visually-hidden"> Перечень гостиниц в Седоне </h2>
+          <section class="hotel-amara">
+            <div class="amara-foto">
+                <img scr="img/amara.jpg" alt="гостиница Amara resort and Spa">
+            </div>
+            <div class="amara-info">
+                <h2 class="hotel-name"> Amara resort & spa </h2>
+                <h3 class="hotel-info"> Гостиница </h3>
+                <h3 class="hotel-info"> От 4000 р. </h3>
+                <a class="hotel-button" href="#"> Подробнее </a>
+                <a class="hotel-button" href="#"> Забронировать </a>
+            </div>
+            <div class="amara-rating">
+                <img scr="img/fourstars.jpg" alt="Рейтинг четыре звезды">
+                <h3 class="rating-info"> Рейтинг: 8,5 </h3>
+            </div>
+          </section>
+
+          <section class="hotel-desert">
+            <div class="desert-foto">
+                <img scr="img/desert.jpg" alt="гостиница Desert quail inn">
+            </div>
+            <div class="desert-info">
+                <h2 class="hotel-name"> Desert quail inn </h2>
+                <h3 class="hotel-info"> Мотель </h3>
+                <h3 class="hotel-info"> От 3000 р. </h3>
+                <a class="hotel-button" href="#"> Подробнее </a>
+                <a class="hotel-button" href="#"> Забронировать </a>
+            </div>
+            <div class="desert-rating">
+                <img scr="img/three.jpg" alt="Рейтинг три звезды">
+                <h3 class="rating-info"> Рейтинг: 8,9 </h3>
+            </div>
+          </section>
+
+          <section class="hotel-villas">
+            <div class="villas-foto">
+                <img scr="img/villas.jpg" alt="гостиница Villas at poco diablo">
+            </div>
+            <div class="Villas-info">
+                <h2 class="hotel-name"> Villas at poco diablo </h2>
+                <h3 class="hotel-info"> Апартаменты </h3>
+                <h3 class="hotel-info"> От 2000 р. </h3>
+                <a class="hotel-button" href="#"> Подробнее </a>
+                <a class="hotel-button" href="#"> Забронировать </a>
+            </div>
+            <div class="Villas-rating">
+                <img scr="img/two.jpg" alt="Рейтинг две звезды">
+                <h3 class="rating-info"> Рейтинг: 9,2 </h3>
+            </div>
+          </section>
+      </section>
     </main>
   </body>
   <footer class="page-footer">
@@ -31,8 +99,8 @@
         <li> <a class="social-button" href="#"> Yuotube </a></li>
       </ul>
     </div>
-    <div class="page-footer-logo">
+    <div class="page-copyright">
       <p>WEBSITE BY</p>
-      <img class="page-footer-logo" src="footer-logo.jpg" width="284" height="164" alt="производитель">
+      <img class="page-copyright-logo" src="footer-logo.jpg" width="284" height="164" alt="производитель">
     </div>
   </footer>
