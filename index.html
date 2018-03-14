@@ -5,13 +5,7 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <style>
-      .container{
-        max-width: 1200px;
-        min-width: 900px;
-        margin: 0 auto;
-      }
-    </style>
+    <section class="container">   
     <header class="main-header">
         <nav class="main-navigation">
             <ul class="sait-navigation">
@@ -22,12 +16,12 @@
             </ul>
         </nav>
         <div class="main-logo">
-              <a>
+              <a class="main-logo">
                 <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Седона">
               </a>
         </div>
     </header>
-    <main class="container">
+    <main>
         <h1 class="visually-hidden"> Курортный городок "Седона" </h1>
         <div class="main-banner">
             <img scr="img/main-banner.jpg" width="284" height="164" alt="Фото Седона">
@@ -40,14 +34,14 @@
 
         <section class="reasons">
             <h2 class="visually-hidden"> Преимущества курорта Седона </h2>
-          <section class="reason-one">
-                <div class="reason-one-text">
+          <section class="reason-box">
+                <div class="reason-box-text">
                   <h3>Настоящий городок</h3>
                   <span class="reason-number"> -№1- </span>
                   <p>Седона - не аттракцион для туристов, там течет своя жизнь!</p>
                 </div>
 
-                <div class="reason-one-image"> <!--добавить фоновую картинку через CSS --></div>
+                <div class="reason-box-image"> <!--добавить фоновую картинку через CSS --></div>
           </section>
 
           <section class="advantages">
@@ -70,17 +64,17 @@
                 </ul>
           </section>
 
-          <section class="reason-two">
-                <div class="reason-two-image"> <!--добавить фоновую картинку через CSS --></div>
-                <div class="reason-two-text">
+          <section class="reason-box">
+                <div class="reason-box-image"> <!--добавить фоновую картинку через CSS --></div>
+                <div class="reason-box-text">
                   <h3> Там есть мост дьявола </h3>
                   <span class="reason-number"> -№2- </span>
                   <p> Да, по нему можно пройтись, если конечно вы осмелитесь </p>
                 </div>
           </section>
 
-          <section class="reasons-three-five">
-              <ul class="reasons-three-five-list">
+          <section class="reason-box2">
+              <ul class="reason-box2-list">
                   <li>
                     <h4> Небольшая площадь </h4>
                     <span class="reason-number"> -№3- </span>
@@ -126,5 +120,6 @@
         <img class="footer-logo" src="footer-logo.jpg" width="284" height="164" alt="Копирайтер">
       </div>
     </footer>
+  </section>
   </body>
 </html>
